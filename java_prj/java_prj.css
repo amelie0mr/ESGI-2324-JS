@@ -1,0 +1,100 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.310),rgba(31, 31, 31, 0.355)), url(images/wallpaper.jpg);
+    
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+  color: aliceblue;
+  width: 99%;
+  font-family: "Raleway";
+
+}
+
+.bn3637 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem 1rem;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #d4d2d2;
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: 1rem;
+}
+.bn38 {
+    border-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+    
+.bn38:hover {
+    background-color: #ffffff;
+}
+
+.search{
+    border-radius: 0.5rem;
+}
+
+label{
+    font-size: large;
+}
+
+.row mt-3{
+    height: 70px;
+    width: 40px;
+    
+}
+
+.card-img-top{
+    width: 10rem;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(5px);
+	height: auto;
+    width: auto;
+	margin: auto;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
+    color: rgb(193, 224, 251);
+}
+
+
+.card-title{
+    text-align: center;
+}
+
+
+.accordion-item{
+    width: auto;
+    background: transparent;
+	backdrop-filter: blur(9px);
+	height: auto;
+    width: auto;
+	margin: auto;
+  
+}
+
+
+.accordion-body{
+    color: rgb(193, 224, 251);
+    
+}
+
+.accordion-button{
+    background-color: rgb(193, 224, 251);;
+}
+
+.pokemon-card {
+    background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(5px);
+	height: auto;
+    width: 20rem;
+	margin: auto;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
+    color: rgb(193, 224, 251);
+}
